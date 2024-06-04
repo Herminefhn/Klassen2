@@ -1,10 +1,18 @@
+* {
+    box-sizing: border-box;
+}
 
 html {
     background-color: rgb(0, 0, 0);
 }
 
+
 .container {
     overflow: hidden;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto auto auto); /* Adjust the number of columns and their width as needed */
+    grid-gap: 10px; /* Adjust the gap between images */
 }
 
 
@@ -18,30 +26,51 @@ html {
     
 }
 
-.container {
-    position: relative;
-}
-
 .bilde img {
-    width: 40%;
+    width: 30%;
     height: auto;
     top: 0;
     left: 0;
 }
 
 .bilde2 img {
-    width: 33%;
+    width: 25%;
     height: auto;
     position: absolute;
-    top: 36px;
-    left: 45px;
+    top: 6.9%;
+    left: 3.5%;
 }
 
 .bilde3 img {
-    width: 18.5%;
+    width: 16%;
     height: auto;
     position: absolute;
-    top: 420px;
-    left: 9px;
+    top: 80.3%;
+    left: 0.8%;
+}
+
+
+.bilde4 img {
+    width: 30%;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+
+.bilde5 img {
+    width: 31%;
+    height: auto;
+    position: absolute;
+    bottom: 0%;
+    left: 2.5%;
+    
+}
+
+.bilde6 img {
+    width: 9%;
+    height: auto;
+    position: absolute;
+    top: 77%;
+    left: 0.8%;
 }
 
